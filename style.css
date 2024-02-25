@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: rgba(20, 19, 19, 0.867);
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+  }
+  
+  footer {
+    background-color: black;
+    padding: 10px;
+    text-align: right;
+    color: white;
+  }
+  
+  .row{
+    display:flex;
+    justify-content: space-between;
+  }
+  .left-text, .prawo{
+    flex: 1;
+    text-align:left ;
+  }
+  .prawo{
+    text-align: right;
+  }
+  .centr{
+    text-align:center;
+  }
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+#myImage {
+    width: 100%; /* Ensure the image takes up the entire width of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+.overlay-text {
+    position: absolute;
+    top:80%; /* Position the text vertically at 50% from the top */
+    color: white; /* Text color */
+    text-align: center; /* Center text horizontally */
+    padding: 100px; /* Padding around the text */
+    max-width: 50%; /* Set maximum width for the text */
+    left: 50%; /* Position the text horizontally at 50% */
+    transform: translateX(-50%) translateY(-50%); /* Center the text both vertically and horizontally */
+}
+
+
